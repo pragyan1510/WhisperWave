@@ -1,0 +1,58 @@
+package com.example.whisperwave.Adapters;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+
+import com.example.whisperwave.Fragments.Echoes;
+import com.example.whisperwave.Fragments.Waves;
+import com.example.whisperwave.Fragments.Whispers;
+
+public class FragmentsAdapter extends FragmentPagerAdapter {
+
+    public FragmentsAdapter(@NonNull FragmentManager fm) {
+        super(fm);
+    }
+
+    public FragmentsAdapter(@NonNull FragmentManager fm, int behavior) {
+        super(fm, behavior);
+    }
+
+    @NonNull
+    @Override
+    public Fragment getItem(int position) {
+        switch (position){
+            case 0 : return new Whispers();
+            case 1 : return new Echoes();
+            case 2 : return new Waves();
+            default: return new Whispers();
+        }
+    }
+
+    @Override
+    public int getCount() {
+        return 3;
+    }
+
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+
+        String title = null;
+        if (position==0){
+            title = "Whispers";
+        }
+        if (position==1){
+            title = "Echoes";
+        }
+        if (position==2){
+            title = "Waves";
+        }
+
+
+
+        return title;
+    }
+}

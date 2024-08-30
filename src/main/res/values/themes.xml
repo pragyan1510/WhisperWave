@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhisperWave" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#A27350</item>
+    </style>
+
+    <style name="Theme.WhisperWave" parent="Base.Theme.WhisperWave" />
+</resources>

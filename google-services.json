@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "322693354809",
+    "firebase_url": "https://whisperwave-dfcc0-default-rtdb.firebaseio.com",
+    "project_id": "whisperwave-dfcc0",
+    "storage_bucket": "whisperwave-dfcc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322693354809:android:3f2e221595f88693d504e8",
+        "android_client_info": {
+          "package_name": "com.example.whisperwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322693354809-p78cqspmmrqffofbh7bohtpphqsvf831.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whisperwave",
+            "certificate_hash": "e294422854b0f3ef9dc61dd023f010d542d66a10"
+          }
+        },
+        {
+          "client_id": "322693354809-d3uvm804ggcs5f3ibmcdgr41asfarf79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfr0C3VqAVJGMy6mF-8CPnmWx6mwcA-ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322693354809-5mfqoi3nc1cj0u7v9upl106feg04salt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
